@@ -1,0 +1,29 @@
+{
+  "name": "bubble-music-pwa",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Pemutar musik web dan PWA dengan Bubble UI dan Glassmorphism.",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "firebase": "13.3.0",
+    "lucide-react": "1.73.0",
+    "motion": "14.14.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.3.5",
+    "@vitejs/plugin-react": "6.3.0",
+    "tailwindcss": "4.3.5",
+    "vite": "8.3.8",
+    "vite-plugin-pwa": "2.0.0"
+  }
+}
